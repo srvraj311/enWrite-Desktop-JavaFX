@@ -7,6 +7,11 @@ Alpha, Does not Persists Data yet.
 2. Run the FXApp-1.0-SNAPSHOT.jar in JRE
 3. Using   ``` java -jar FXApp-1.0-SNAPSHOT.jar```
 
+#### Or
+1. Clone and Run using Gradle
+2. ``` ./gradlew build ```
+3. ``` ./gradlew run ```
+
 ### Screenshots
 
 <img src="https://res.cloudinary.com/dvmsk482x/image/upload/v1622862115/Screenshot_20210605_083143_sfqcwr.png" ></img>

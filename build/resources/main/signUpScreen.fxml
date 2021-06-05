@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.srvraj311.SignUpController">
+   <children>
+      <FlowPane alignment="CENTER" layoutX="-2.0" prefHeight="400.0" prefWidth="159.0" style="-fx-background-color: #cccccc;">
+         <children>
+            <ImageView fitHeight="99.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LoginScreen/enWrite_main.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="157.0" layoutY="14.0" prefHeight="18.0" prefWidth="443.0" text="Give us few Details and few Seconds  😊" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="247.0" prefHeight="18.0" prefWidth="52.0" text="Name :" />
+      <Label layoutX="174.0" layoutY="284.0" text="Email :" />
+      <TextField fx:id="nameField" layoutX="242.0" layoutY="243.0" prefHeight="26.0" prefWidth="332.0" promptText="Full Name" />
+      <TextField fx:id="emailField" layoutX="242.0" layoutY="280.0" prefHeight="26.0" prefWidth="332.0" promptText="Email" />
+      <TextField fx:id="passwordField1" layoutX="243.0" layoutY="317.0" prefHeight="26.0" prefWidth="159.0" promptText="Password" />
+      <Label layoutX="173.0" layoutY="321.0" text="Password :" />
+      <TextField fx:id="passwordField2" layoutX="415.0" layoutY="317.0" prefHeight="26.0" prefWidth="159.0" promptText="Re-Enter Password" />
+       <ImageView fx:id="userAvatarSignUpScreen" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+           <Image url="@LoginScreen/user.png" />
+       </ImageView>
+      <Button fx:id="signUpButton" layoutX="491.0" layoutY="356.0" mnemonicParsing="false" onAction="#signUp" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #f04ab9;" text="Sign-Up" textFill="WHITE" />
+      <Button fx:id="cancleButtonSignUpPage" layoutX="402.0" layoutY="356.0" mnemonicParsing="false" onAction="#cancel" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: white;" text="Cancel" />
+   </children>
+</AnchorPane>

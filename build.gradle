@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'org.springframework.boot' version '2.5.0'
+
+}
+apply plugin: 'io.spring.dependency-management'
+group 'com.srvraj311'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    google()  // Google's Maven repository
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'com.google.firebase:firebase-admin:7.3.0'
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    implementation 'com.google.firebase:firebase-analytics'
+}
+javafx {
+    version = "16"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+mainClassName = 'com.srvraj311.App'
+
+
+test {
+    useJUnitPlatform()
+}

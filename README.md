@@ -14,10 +14,10 @@ Alpha, Does not Persists Data yet.
 
 ### Screenshots
 
-<img src="https://res.cloudinary.com/dvmsk482x/image/upload/v1622862115/Screenshot_20210605_083143_sfqcwr.png" ></img>
-<img src="https://res.cloudinary.com/dvmsk482x/image/upload/v1622862130/Screenshot_20210605_083203_zskueu.png" ></img>
-<img src="https://res.cloudinary.com/dvmsk482x/image/upload/v1622862148/Screenshot_20210605_083220_b3q6fv.png" ></img>
-<img src="https://res.cloudinary.com/dvmsk482x/image/upload/v1622862231/Screenshot_20210605_083343_dutyzk.png" ></img>
+<img src="https://res.cloudinary.com/srvraj311/image/upload/v1626324977/Screenshot_20210715_102355_lon8ho.png" ></img>
+<img src="https://res.cloudinary.com/srvraj311/image/upload/v1626324977/Screenshot_20210715_102421_i3y7ev.png" ></img>
+<img src="https://res.cloudinary.com/srvraj311/image/upload/v1626324977/Screenshot_20210715_102436_bjmzun.png" ></img>
+<img src="https://res.cloudinary.com/srvraj311/image/upload/v1626324977/Screenshot_20210715_102527_tlo8u1.png" ></img>
 
 
 ### ThankYou
